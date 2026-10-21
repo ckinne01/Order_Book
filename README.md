@@ -9,8 +9,8 @@ The main goal of this project is experience. Since graduating from college I hav
 ---
 
 # Project Structure
-/apps: Executable code. Main development space
-/bench:
-/docs: Logbook of test runs and results, current test runs will be unreliable while running on a local VM
-/src: Reusable library code
+/apps: Executable code. Main development space  
+/bench:  
+/docs: Logbook of test runs and results, current test runs will be unreliable while running on a local VM  
+/src: Reusable library code  
 /tests: Test files
