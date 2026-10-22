@@ -1,6 +1,7 @@
 #include <iostream>
+#include "placeholder.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    placeholder();
     return 0;
 }
