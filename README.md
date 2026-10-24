@@ -9,11 +9,11 @@ The main goal of this project is experience. Since graduating from college I hav
 ---
 
 # Project Structure
-/apps: Executable code 
-/bench: Benchmark code to run timing tests  
-/docs: Logbook of benchmark test runs and results, current benchmark runs will be unreliable while running on a local VM  
-/src: Reusable library code, feature implementations  
-/tests: Test files
+- /apps: Executable code
+- /bench: Benchmark code to run timing tests
+- /docs: Logbook of benchmark test runs and results, current benchmark runs will be unreliable while running on a local VM
+- /src: Reusable library code, feature implementations
+- /tests: Test files
 
 # Build/Run Commands
 - cmake --preset <preset>
