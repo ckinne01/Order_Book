@@ -1,4 +1,4 @@
-# Order_Book
+# Order_Book [![CI](https://github.com/ckinne01/Order_Book/actions/workflows/ci.yml/badge.svg)](https://github.com/ckinne01/Order_Book/actions/workflows/ci.yml)
 Build a program that ingests exchange-style market data, reconstructs an order book, publishes market statistics, and measures the cost of every stage of processing.
 
 ---
