@@ -1,0 +1,2 @@
+InheritParentConfig: true
+Checks: '-bugprone-throwing-static-initialization,-modernize-avoid-c-arrays,-clang-analyzer-deadcode.DeadStores,-readability-identifier-length'
