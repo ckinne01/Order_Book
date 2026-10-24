@@ -27,7 +27,7 @@ jobs:
       - name: Test
         run: ctest --test-dir build/${{ matrix.preset }} --output-on-failure
 
-    format-and-lint:
+  format-and-lint:
     runs-on: ubuntu-24.04
     env:
       CC: clang
