@@ -1,5 +1,7 @@
 # Benchmarks
 
+## NOTE: CI is not used or reported for benchmarking
+
 ## Environments
 ### Env A: Lima VM on Macbook (ARM64)
 - Host: MacBook Air, M4 chip, 24 GB
