@@ -7,6 +7,14 @@
 - Compilers: g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0, clang++ 21.1.8; CMake 4.2.3
 - Caveats: VM, no reliable hardware counters, shared CPU with macOS
 
+## Methodology
+- Build presets: relwithdebinfo/release only (only debug ran for initial benchmark test run)
+- Dataset: <TBA>
+- Command: cmake --preset (relwithdebinfo/release); cmake --build --preset (relwithdebinfo/release); ctest --test-dir build/(relwithdebinfo/release) --output-on-failure
+- Warmup / repetitions: <TBA>
+- Isolation: <TBA>
+- Correctness gate: <TBA>
+
 ## Results log
 ### 2026-10-24: First benchmarks and test runs
 - Environment: A | Commit: e6f67abb17a3747fbf26c8052d6f62d9bc267955
