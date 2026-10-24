@@ -1,6 +1,6 @@
 #include "placeholder.hpp"
 
-int placeholder() {
-    printf("This is a placeholder function.\n");
-    return 0;
+std::string placeholder() {
+    std::string message = "This is a placeholder function.";
+    return message;
 }

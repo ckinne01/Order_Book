@@ -1,2 +1,2 @@
-#include <stdio.h>
-int placeholder();
+#include <string>
+std::string placeholder();

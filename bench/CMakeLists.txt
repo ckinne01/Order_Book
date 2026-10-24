@@ -1,0 +1,2 @@
+add_executable(orderbook_bench placeholder_bench.cpp)
+target_link_libraries(orderbook_bench PRIVATE orderbook benchmark::benchmark_main)

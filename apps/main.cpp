@@ -2,6 +2,7 @@
 #include "placeholder.hpp"
 
 int main() {
-    placeholder();
+    std::string message = placeholder();
+    std::cout << message << std::endl;
     return 0;
 }
