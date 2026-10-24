@@ -1,0 +1,3 @@
+Checks: 'bugprone-*, modernize-*, readability-*, performance-*, clang-analyzer-*'
+HeaderFilterRegex: '.*/(src|apps|tests|bench)/.*'
+FormatStyle: 'file'

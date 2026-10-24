@@ -1,2 +1,2 @@
 #include <string>
-std::string placeholder();
+auto placeholder() -> std::string;

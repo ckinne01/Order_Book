@@ -9,8 +9,23 @@ The main goal of this project is experience. Since graduating from college I hav
 ---
 
 # Project Structure
-/apps: Executable code. Main development space  
-/bench:  
-/docs: Logbook of test runs and results, current test runs will be unreliable while running on a local VM  
-/src: Reusable library code  
+/apps: Executable code 
+/bench: Benchmark code to run timing tests  
+/docs: Logbook of benchmark test runs and results, current benchmark runs will be unreliable while running on a local VM  
+/src: Reusable library code, feature implementations  
 /tests: Test files
+
+# Build/Run Commands
+- cmake --preset <preset>
+- cmake --build --preset <preset>
+- ./build/<preset>/replay
+
+# Build/Test Commands
+- cmake --preset <preset>
+- cmake --build --preset <preset>
+- ctest --test-dir build/<preset> --output-on-failure
+
+# Build/Bench commands
+- cmake --preset <preset>
+- cmake --build --preset <preset>
+- ./build/<preset>/bench/orderbook_bench
