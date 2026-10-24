@@ -1,8 +1,8 @@
-#include <iostream>
 #include "placeholder.hpp"
+#include <iostream>
 
 int main() {
     std::string message = placeholder();
-    std::cout << message << std::endl;
+    std::cout << message << '\n';
     return 0;
 }

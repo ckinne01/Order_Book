@@ -1,7 +1,7 @@
-#include <benchmark/benchmark.h>
 #include "placeholder.hpp"
+#include <benchmark/benchmark.h>
 
-static void BM_Placeholder(benchmark::State& state) {
+static void BM_Placeholder(benchmark::State &state) {
     for (auto _ : state) {
         placeholder();
     }
